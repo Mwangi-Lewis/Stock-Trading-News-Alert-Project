@@ -7,8 +7,8 @@ COMPANY_NAME = "Tesla Inc"
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 
-STOCK_API_KEY = "RI0YRE9J1786IRW6"
-NEWS_API_KEY = "f797f47b6e8d4d2891f596bebf790cd2"
+STOCK_API_KEY = "Your Stock API Key"
+NEWS_API_KEY = "Your NEWS-API-KEY"
 
 
 ## STEP 1: Use https://www.alphavantage.co/documentation/#daily
@@ -85,8 +85,8 @@ if abs(diff_percent) > 1:
 
     # TODO 8. - Send each article as a separate message via Twilio.
     for article in formatted_articles:
-        sender_email = "smwangilewis@gmail.com"
-        receiver_email = "smwangilewis@gmail.com"
+        sender_email = "Put the sender's email"
+        receiver_email = "Put the receiver's email"
         password = "aebi wdxy jmsr xzza"
 
         # SMTP server configuration (for Gmail)
